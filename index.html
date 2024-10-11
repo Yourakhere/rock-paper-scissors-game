@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="main.css">
+    
+</head>
+<body>
+    <div>
+        <button onclick="myFunction()" class="mode">💡</button> 
+         <div class="rsp">
+          
+            <p class="title">Rock Paper Scissors</p>
+            <button onclick="PlayGame('rock')" class="move-button"><img src="assets/rock-emoji.png" class="move-icon"></button>
+            <button onclick="PlayGame('scissors')" class="move-button"><img src="assets/scissors-emoji.png" class="move-icon"></button>
+            <button onclick="PlayGame('paper')" class="move-button"><img src="assets/paper-emoji.png" class="move-icon"></button>
+            <p class="js-result RESULT">you win.</p>
+            <p class="js-moves"></p>
+            <p class="js-score score"></p>
+            <button onclick="resetScore()" class="reset-score-button">Reset score</button>
+        
+         </div>
+    </div>
+ 
+    <script src="main.js"></script>
+    
+</body>
+</html>
